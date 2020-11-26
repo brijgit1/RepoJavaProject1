@@ -12,7 +12,13 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void shouldAnswerWithTrue()
+    public void test1()
+    {
+        Assert.assertEquals("ABC", "ABC");
+    }
+    
+    @Test
+    public void test2()
     {
         Assert.assertEquals("ABC", "ABC");
     }
